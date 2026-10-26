@@ -11,3 +11,10 @@ This public repository intentionally contains demonstration code only, no sensit
 - CSV import accepts simple comma-separated files with biller/company, amount, and due date columns; no payment is made.
 - PDF file selection is supported, but PDF automatic recognition is **not** implemented yet.
 - This static public demo has **no authentication or protected storage**. Do not use actual account statements or sensitive personal financial data.
+
+## Release snapshot — demo
+- My Bills filters: all/upcoming/skipped/paid demo bills.
+- Restore and remove actions for eligible demo bills.
+- Clear public demo-only warning; no payment credentials accepted.
+- Photo OCR and PDF text extraction rely on browser-side external open-source libraries; inspect imported values before use.
+- No persistent customer accounts, secure bill data vault, live processor, biller connectivity or real payment transfer; not ready for customers to enter real financial details.
